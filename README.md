@@ -1,10 +1,10 @@
 # Automatic Door Locking System
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements an Automatic Door Locking System using Arduino, MFRC522 RFID Reader, Servo Motor, and Buzzer. The system uses RFID technology to authenticate users based on their unique card UID and grants access only to authorized users. It provides a simple, reliable, and cost-effective solution for access control and security applications.
 
-## 🚀 Features
+## Features
 
 * RFID-based authentication
 * Multiple authorized card support
@@ -13,7 +13,7 @@ This project implements an Automatic Door Locking System using Arduino, MFRC522 
 * Buzzer feedback for security alerts
 * Automatic door relocking after access
 
-## 🛠 Hardware Components
+## Hardware Components
 
 * Arduino Uno
 * MFRC522 RFID Reader
@@ -23,7 +23,7 @@ This project implements an Automatic Door Locking System using Arduino, MFRC522 
 * Jumper Wires
 * Breadboard
 
-## ⚙️ Working
+## Working
 
 1. RFID card is scanned by the MFRC522 reader.
 2. The UID is compared with authorized UIDs stored in the code.
@@ -37,7 +37,7 @@ This project implements an Automatic Door Locking System using Arduino, MFRC522 
    * Access is denied.
    * Buzzer generates warning beeps.
 
-## 🔌 Pin Connections
+## Pin Connections
 
 | Component | Arduino Pin |
 | --------- | ----------- |
@@ -46,13 +46,13 @@ This project implements an Automatic Door Locking System using Arduino, MFRC522 
 | Servo     | D9          |
 | Buzzer    | D7          |
 
-## 📚 Libraries Used
+## Libraries Used
 
 * SPI.h
 * MFRC522.h
 * Servo.h
 
-## 🎯 Applications
+## Applications
 
 * Smart Home Security
 * Office Access Control
@@ -60,7 +60,7 @@ This project implements an Automatic Door Locking System using Arduino, MFRC522 
 * Educational Projects
 * Basic Access Management Systems
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * LCD Display Integration
 * Wi-Fi/Bluetooth Connectivity
@@ -68,7 +68,7 @@ This project implements an Automatic Door Locking System using Arduino, MFRC522 
 * Attendance Logging System
 * Cloud-Based Access Monitoring
 
-## 👨‍💻 Author
+## Author
 
 Kriti Nitya
 

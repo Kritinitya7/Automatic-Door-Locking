@@ -1,8 +1,8 @@
-# RFID-Based Smart Door Lock System
+# Automatic Door Locking System
 
 ## 📌 Project Overview
 
-This project implements a secure RFID-based door locking system using Arduino, MFRC522 RFID Reader, Servo Motor, and Buzzer. The system authenticates RFID cards based on their unique UID and grants access only to authorized users.
+This project implements an Automatic Door Locking System using Arduino, MFRC522 RFID Reader, Servo Motor, and Buzzer. The system uses RFID technology to authenticate users based on their unique card UID and grants access only to authorized users. It provides a simple, reliable, and cost-effective solution for access control and security applications.
 
 ## 🚀 Features
 
@@ -30,7 +30,7 @@ This project implements a secure RFID-based door locking system using Arduino, M
 3. If the UID matches:
 
    * Door unlocks using the servo motor.
-   * Buzzer gives confirmation sound.
+   * Buzzer gives a confirmation sound.
    * Door automatically locks after 5 seconds.
 4. If the UID does not match:
 
@@ -57,7 +57,8 @@ This project implements a secure RFID-based door locking system using Arduino, M
 * Smart Home Security
 * Office Access Control
 * Hostel & Laboratory Security
-* IoT Security Projects
+* Educational Projects
+* Basic Access Management Systems
 
 ## 🔮 Future Enhancements
 
@@ -68,5 +69,7 @@ This project implements a secure RFID-based door locking system using Arduino, M
 * Cloud-Based Access Monitoring
 
 ## 👨‍💻 Author
+
+Kriti Nitya
 
 Developed using Arduino and RFID technology for embedded systems and access control applications.
